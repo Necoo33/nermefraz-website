@@ -46,6 +46,9 @@ Tags: agency, business, consulting, corporate, cyber security, finance, it agenc
 
 .solutek_nav_manu {
   padding: 35px 39px 0;
+  display: flex;
+  align-items: center;
+  place-content: space-between;
 }
 
 .sticky {
@@ -2619,7 +2622,7 @@ ul.testi-rating li {
 =======================================*/
 
 .footer-area {
-  background: url(../files/images/footer-bg.png);
+  background: url(../files/images/footer-bg-2.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6143,7 +6146,7 @@ p.services-details-desc {
 /*sidber contact*/
 
 .widget-sidber-contact-box {
-  background: url(../files/images/inner/sidber-contact.png);
+  background: url(../files/images/nermefraz-sidebar-right.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -7834,3 +7837,6 @@ p.blog-details-desc.three {
     transform: translateX(-50px);
   }
 }
+
+
+/*bizim eklediğimiz css'ler: */
