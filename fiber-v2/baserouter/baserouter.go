@@ -70,4 +70,36 @@ func BaseRouter(server *fiber.App) {
 			"Layer":       1,
 		})
 	})
+
+	routes.Get("/projeler/incli", func(context *fiber.Ctx) error {
+		return context.Render("incli", fiber.Map{
+			"Title":       "InCli | Nermefraz | Geleceğe Yumuşak Dokunuş",
+			"Description": "Nermefraz Teknoloji tarafından 2024'ün başından beri geliştirilmekte olunan Installation Cli, Rust, Node.js, Go, Java gibi birçok yazılım dilinin kodlama araçlarını windows'a ve 9 farklı linux distro'suna tek bir komutla yüklemeye yarayan bir açık kaynak yazılımdır.",
+			"Layer":       2,
+		})
+	})
+
+	routes.Get("/projeler/floww", func(context *fiber.Ctx) error {
+		return context.Render("floww", fiber.Map{
+			"Title":       "FlowW | Nermefraz | Geleceğe Yumuşak Dokunuş",
+			"Description": "FlowW, farklı ihtiyaçlara odaklanan ve hemen her kullanım stilini kapsayan, yüksek seçenekli ve yüksek performanslı bir iş yönetim sistemi / platformudur. Kullanıcılara yüksek esnekliği işiyle alakalı geniş istatistiksel verilerle birlikte sunmaktadır.",
+			"Layer":       2,
+		})
+	})
+
+	routes.Get("/projeler/e-ticaret-sistemleri", func(context *fiber.Ctx) error {
+		return context.Render("e-ticaret-sistemleri", fiber.Map{
+			"Title":       "E Ticaret Sistemleri | Nermefraz | Geleceğe Yumuşak Dokunuş",
+			"Description": "Nermefraz Bilişim Tarafından geliştirilen E-Ticaret Sistemleri, pazaryeri kurulumlarına odaklanan, müşterilerinin ticaretini sanal ortama taşımayı amaçlayan ve böylece müreffeh bir geleceğe sert iniş yapmalarını sağlayan, gelişmiş yazılımlardır.",
+			"Layer":       2,
+		})
+	})
+
+	routes.Get("/projeler/chtxt", func(context *fiber.Ctx) error {
+		return context.Render("chtxt", fiber.Map{
+			"Title":       "ChTxt | Nermefraz | Geleceğe Yumuşak Dokunuş",
+			"Description": "Nermefraz Teknoloji Tarafından geliştirilen Chtxt, yazılım geliştiricilerin kullanımı için tasarlanan, boilerplate - şablon kodlarını tek bir komutla kesin ve yüksek performanslı bir şekilde değiştirmelerine imkan veren, yeni nesil bir komut satırı programıdır.",
+			"Layer":       2,
+		})
+	})
 }
