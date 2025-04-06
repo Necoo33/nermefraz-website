@@ -6044,6 +6044,7 @@ p.services-details-desc {
 .widget-category ul li img {
   margin-right: 12px;
   transition: 0.5s;
+  width: 30px;
 }
 
 .widget-category ul li a:hover img {
